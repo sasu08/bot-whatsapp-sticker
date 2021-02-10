@@ -17,7 +17,7 @@ Instalar en Linux, Windows, etc.
 - Instalar dependencias
 
 ```
-pkg update && pkg install git nodejs ffmpeg  -y
+pkg update && pkg install git nodejs ffmpeg python -y
 ```
 
 - Clonar este repositorio
