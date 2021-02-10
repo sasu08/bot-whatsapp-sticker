@@ -12,7 +12,9 @@ Funciones:
 
 - Crea sticker adjuntando imagen/gif/video utilizando el comando !sticker.
 
-Instalar en Linux, Windows, etc.
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+Instalar en Linux, Windows, etc. 
 
 - Instalar dependencias
 
