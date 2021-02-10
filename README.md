@@ -1,5 +1,14 @@
 # bot-whatsapp-sticker
 
+### Inicie su propia aplicación
+
+En Heroku:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
+Creare una cuenta gratis si es la primera vez que entras:  
+https://signup.heroku.com/
 
 
 - Requisitos: Dos teléfonos, o un Teléfono y una PC
@@ -11,8 +20,6 @@ Modo de uso:
 Funciones:
 
 - Crea sticker adjuntando imagen/gif/video utilizando el comando !sticker.
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 Instalar en Linux, Windows, etc. 
 
