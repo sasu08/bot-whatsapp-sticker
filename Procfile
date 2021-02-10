@@ -1,1 +1,1 @@
-app:node index.js
+app: node index.js
