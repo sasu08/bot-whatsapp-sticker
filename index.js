@@ -20,9 +20,9 @@ async function connectToWhatsApp() {
   conn.on("credentials-updated", () => {
     console.log("Credenciales actualizadas");
     const authInfo = conn.base64EncodedAuthInfo();
-    fs.writeFileSync("./auth_info.json", JSON.stringify(authInfo, null, "\t")); 
+    fs.writeFileSync("./authinfo.json", JSON.stringify(authInfo, null, "\t")); 
   });
-  fs.existsSync("./auth_info.json") && conn.loadAuthInfo("./auth_info.json");
+  fs.existsSync("./authinfo.json") && conn.loadAuthInfo("./authinfo.json");
   await conn.connect();
   conn.on("chat-update", async (chatUpdate) => {
     if (chatUpdate.messages) {
