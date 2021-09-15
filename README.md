@@ -23,16 +23,19 @@ Funciones:
 
 Instalar en Linux, Windows, etc. 
 
-- Instalar dependencias
+- Dependencias necesarias:
 
 ```
-pkg update && pkg install git nodejs ffmpeg python -y
+- Git
+- Nodejs 
+- Ffmpeg
+- Python
 ```
 
 - Clonar este repositorio
 
 ```
-git clone https://github.com/ianmazurek/bot-whatsapp-sticker
+git clone https://github.com/sasu08/bot-whatsapp-sticker.git
 ```
 
 - Navega hacía la carpeta e instale las dependencias del nodo
